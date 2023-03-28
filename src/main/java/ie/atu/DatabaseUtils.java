@@ -6,9 +6,9 @@ import com.mysql.cj.jdbc.MysqlDataSource;
 
 public class DatabaseUtils {
     //later we will look at storing this type of data in a better location like a properties file
-    private static final String URL = "jdbc:mysql://localhost:3306/exampledatabase";
+    private static final String URL = "jdbc:mysql://localhost:3306/testdatabase";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "password";
+    private static final String PASSWORD = "root";
     private static final DataSource dataSource;
 
     //notice the static has no name?
